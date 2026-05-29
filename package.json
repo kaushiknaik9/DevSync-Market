@@ -1,0 +1,37 @@
+{
+  "name": "devsync-enterprise",
+  "version": "1.0.0",
+  "description": "This is Devsync consider like Jira+github+notion this is backend only build for an enterprise level",
+  "keywords": [
+    "Backend",
+    "Mern",
+    "Complete-Enterprise-Backend",
+    "Week-1"
+  ],
+  "homepage": "https://github.com/kaushiknaik9/DevSync-Market#readme",
+  "bugs": {
+    "url": "https://github.com/kaushiknaik9/DevSync-Market/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushiknaik9/DevSync-Market.git"
+  },
+  "license": "ISC",
+  "author": "Kaushik Naik",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run dev",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.2.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
