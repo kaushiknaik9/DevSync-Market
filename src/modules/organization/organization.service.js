@@ -1,8 +1,9 @@
-const createOrganization = async (name) => {
-  return {
-    id: Date.now(),
-    name,
-  };
+const prisma = require("../../config/db");
+
+const createOrganization = async (data) => {
+  return prisma.organization.create({
+    data,
+  });
 };
 
 module.exports = createOrganization;
